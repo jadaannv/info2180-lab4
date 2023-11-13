@@ -10,11 +10,24 @@
   </head>
   <body>
     <header>
-        <h1>Avengers Character Search</h1>
+        <div class = container>
+            <img src = "Avengers.jpg" alt="avengers symbol">
+            <h1>Avengers Character Search</h1>
+        </div>
     </header>
     <form action="superheroes.php">
-        <button type="submit" id = "btn">Search</button>
-        
+        <div class = container>
+            <h3>Search by Full name or Alias</h3>
+            <input type="text" name="avengers" id="hero-search" placeholder="Enter an Avenger">
+            <button type="submit" id = "btn">Search</button>
+        </div>
+
+        <div id="result">
+            <h2>RESULT</h2>
+        </div>
+
     </form>
+
+   
   
 </html>
